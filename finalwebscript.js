@@ -1,10 +1,9 @@
-document.getElementById("mouseover").addEventListener("mouseenter", mouseEnter);
-document.getElementById("mouseover").addEventListener("mouseleave", mouseLeave);
+document.getElementById("mouseover").addEventListener("mouseover", mouseOver);
+document.getElementById("mouseover").addEventListener("mouseout", mouseOut);
 
-function mouseEnter() {
+function mouseOver() {
   document.getElementById("mouseover").style.color = "green";
 }
-
-function mouseLeave() {
-  document.getElementById("mouseover").style.color = "darkslategray";
+function mouseOut() {
+  document.getElementById("mouseover").style.color = "darkslategrey";
 }
