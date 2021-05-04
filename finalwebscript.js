@@ -1,9 +1,10 @@
-function bigImg(x) {
-  x.style.height = "300px";
-  x.style.width = "300px";
+document.getElementById("mouseover").addEventListener("mouseenter", mouseEnter);
+document.getElementById("mouseover").addEventListener("mouseleave", mouseLeave);
+
+function mouseEnter() {
+  document.getElementById("mouseover").style.color = "green";
 }
 
-function normalImg(x) {
-  x.style.height = "300px";
-  x.style.width = "300px";
+function mouseLeave() {
+  document.getElementById("mouseover").style.color = "darkslategray";
 }
