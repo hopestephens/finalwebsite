@@ -66,6 +66,7 @@ img#plants2 {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
 
   img#plants3 {
     padding: 40px
@@ -88,4 +89,13 @@ img#plants2 {
     background-color: floralwhite;
     text-align: center;
   }
+  .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 }
