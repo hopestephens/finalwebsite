@@ -32,7 +32,7 @@ h1 {
   text-align: center;
   background-color: snow;
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  font-size: 60px;
+  font-size: 90px;
   font-style: normal; font-variant: normal;
   font-weight: 700;
   line-height: 26.4px;
@@ -85,7 +85,7 @@ img#plants2 {
   header {
     font-weight: bold;
     color: darkslategray;
-    font-family:Century "Gothic,CenturyGothic,AppleGothic,sans-serif";
+    font-family: "Century Gothic,CenturyGothic,AppleGothic,sans-serif";
     background-color: floralwhite;
     text-align: center;
   }
